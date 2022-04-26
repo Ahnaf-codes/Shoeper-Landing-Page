@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&display=swap');
 
 :root {
-    --main-color:#80DCFE;
-    --bg-color: #F2F3F4;
-    --btn-color:#FFD301;
+    --main-color: #80dcfe;
+    --header-color: #80dcfebf;
+    --bg-color: #f2f3f4;
+    --btn-color: #FFD301;
 }
 
 
@@ -13,16 +14,14 @@ html {
 }
 
 body {
+    position: relative;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: var(--bg-color);
     font-family: "Quicksand",sans-serif;
     font-weight: 300;
-}
-
-#container {
-    position: relative;
+    color: #000;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -50,7 +49,7 @@ header {
     top: 0px;
     left: 0px;
     width: 100%;
-    background-color: var(--main-color);
+    background-color: var(--header-color);
     box-shadow: 0 .3rem 1rem rgba(0, 0, 0, .2) ;
 }
 
@@ -65,4 +64,26 @@ nav>ul {
     font-size: 1.6rem;
     padding: 2.5rem;
     border: .2rem solid #B3EAFE;
+}
+
+
+
+#home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 8rem;
+    background-image: url(Assets/Web-bg.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 3.2rem;
+} 
+
+#shoes-img {
+    object-fit: contain;
+    transform: scale(.8);
 }
