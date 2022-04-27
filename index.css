@@ -73,7 +73,7 @@ nav > ul {
 
 .nav-link:hover {
 	background-color: #00b9fcee;
-    transition: 1s ease-in;
+	transition: 1s ease-in;
 }
 
 #home {
@@ -116,7 +116,7 @@ nav > ul {
 	background-color: #ffaf01;
 	border: 0.3rem solid #ffaf01ee;
 	transition: 0.5s linear;
-    transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 #shoes-img {
