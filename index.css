@@ -1,89 +1,91 @@
 /* font import */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&display=swap");
 
 :root {
-    --main-color: #80dcfe;
-    --header-color: #80dcfebf;
-    --bg-color: #f2f3f4;
-    --btn-color: #FFD301;
+	--main-color: #80dcfe;
+	--header-color: #80dcfebf;
+	--bg-color: #f2f3f4;
+	--btn-color: #ffd301;
 }
 
-
 html {
-    font-size: 62.5%;
+	font-size: 62.5%;
 }
 
 body {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: var(--bg-color);
-    font-family: "Quicksand",sans-serif;
-    font-weight: 300;
-    color: #000;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: var(--bg-color);
+	font-family: "Quicksand", sans-serif;
+	font-weight: 300;
+	color: #000;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-weight: 600;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 600;
 }
 
-nav{
-    font-weight: 500;
+nav {
+	font-weight: 500;
 }
 
 a {
-    text-decoration: none;
-    color: #000;
+	text-decoration: none;
+	color: #000;
 }
 
 li {
-    list-style: none;
+	list-style: none;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    background-color: var(--header-color);
-    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, .2) ;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: var(--header-color);
+	box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.2);
 }
 
-nav>ul {
-    display: flex;
-    justify-content: space-around;
-    width: 45vw;
-    margin-right: 10px;
+nav > ul {
+	display: flex;
+	justify-content: space-around;
+	width: 45vw;
+	margin-right: 10px;
 }
 
 .nav-link {
-    font-size: 1.6rem;
-    padding: 2.5rem;
-    border: .2rem solid #B3EAFE;
+	font-size: 1.6rem;
+	padding: 2.5rem;
+	border: 0.2rem solid #b3eafe;
 }
 
-
-
 #home {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 100vh;
-    padding-top: 8rem;
-    background-image: url(Assets/Web-bg.svg);
-    background-size: cover;
-    background-position: center;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 100vh;
+	padding-top: 8rem;
+	background-image: url(Assets/Web-bg.svg);
+	background-size: cover;
+	background-position: center;
 }
 
 h1 {
-    font-size: 3.2rem;
-} 
+	font-size: 3.2rem;
+}
 
 #shoes-img {
-    object-fit: contain;
-    transform: scale(.8);
+	object-fit: contain;
+	transform: scale(0.8);
 }
