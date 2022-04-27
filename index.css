@@ -20,6 +20,7 @@ body {
 	background-color: var(--bg-color);
 	font-family: "Quicksand", sans-serif;
 	font-weight: 300;
+    text-transform: capitalize;
 	color: #000;
 }
 
@@ -66,12 +67,13 @@ nav > ul {
 
 .nav-link {
 	font-size: 1.6rem;
-	padding: 2.5rem;
+	padding: 2.5rem calc(5vw);
 	border: 0.2rem solid #b3eafe;
 }
 
 #home {
 	display: flex;
+    flex: 50%;
 	justify-content: space-around;
 	align-items: center;
 	min-height: 100vh;
@@ -81,11 +83,35 @@ nav > ul {
 	background-position: center;
 }
 
-h1 {
+#home-text {
 	font-size: 3.2rem;
+    text-align: center;
+	margin-left: 1rem;
+    max-width: 100%;
+}
+
+#email {
+    max-width: 30rem;
+    width: 100%;
+    font-size: 2rem;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    background-color: var(--btn-color);
+    border-color: #ffec8bee;
+    box-shadow: inset  0 .5rem 1rem #ffec8bee; 
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #ffaf01;
+    box-shadow: #ffaf01ee;
+    transition: .5s linear;
 }
 
 #shoes-img {
 	object-fit: contain;
-	transform: scale(0.8);
+	transform: scale(.8);
 }
