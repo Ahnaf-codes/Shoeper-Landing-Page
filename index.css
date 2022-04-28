@@ -2,10 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&display=swap");
 
 :root {
-	--main-color: #80dcfe;
+	--primary-color: #80dcfe;
 	--header-color: #80dcfeee;
 	--bg-color: #f2f3f4;
-	--btn-color: #ffd301;
+	--secondary-color: #ffd301;
 }
 
 html {
@@ -23,6 +23,11 @@ body {
 	font-weight: 300;
 	text-transform: capitalize;
 	color: #000;
+}
+
+*::selection {
+	background-color: #ffd301;
+	color: #fff;
 }
 
 h1,
@@ -73,7 +78,7 @@ nav > ul {
 
 .nav-link:hover {
 	background-color: #00b9fcee;
-	transition: 1s ease-in;
+	transition: .5s ease-out;
 }
 
 #home {
@@ -95,6 +100,10 @@ nav > ul {
 	max-width: 100%;
 }
 
+span {
+	color: var(--secondary-color)
+}
+
 #email {
 	max-width: 30rem;
 	width: 100%;
@@ -103,7 +112,7 @@ nav > ul {
 
 .btn {
 	padding: 1rem 2rem;
-	background-color: var(--btn-color);
+	background-color: var(--secondary-color);
 	border: 0.3rem solid #ffec8bee;
 	border-radius: 1rem;
 	font-weight: 600;
