@@ -64,16 +64,28 @@ header {
 	box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.2);
 }
 
+header > * {
+	flex-basis: 100%;
+}
+
+#header-img {
+	width: 20vw;
+	margin-left: 1.5rem;
+	height: auto;
+	object-fit: contain;
+}
+
 nav > ul {
 	display: flex;
 	justify-content: space-around;
 	width: 45vw;
-	margin-right: 10px;
+	min-width: min-content;
+	margin-right: 1rem;
 }
 
 .nav-link {
 	font-size: 1.6rem;
-	padding: 2.5rem 6vw;
+	padding: 1.5vw 5vw;
 }
 
 .nav-link:hover {
@@ -83,21 +95,30 @@ nav > ul {
 
 #home {
 	display: flex;
-	flex: 50%;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	min-height: 100vh;
-	padding-top: 8rem;
+	margin-top: 3vw;
+	margin: ;
 	background-image: url(Assets/Web-bg.svg);
 	background-size: cover;
 	background-position: center;
 }
 
+#home > * {
+	flex-basis: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+	#home {
+		flex-wrap: wrap;
+	}
+}
+
 #home-text {
-	font-size: 3.2rem;
+	font-size: 3rem;
 	text-align: center;
-	margin-left: 1rem;
-	max-width: 100%;
+	width: 55vw;
 }
 
 span {
@@ -105,8 +126,8 @@ span {
 }
 
 #email {
-	max-width: 30rem;
-	width: 100%;
+	width: 15vw;
+	min-width: min-content;
 	font-size: 2rem;
 }
 
@@ -130,5 +151,6 @@ span {
 
 #shoes-img {
 	object-fit: contain;
-	transform: scale(0.8);
+	width: 40vw;
+	height: 40vw;
 }
