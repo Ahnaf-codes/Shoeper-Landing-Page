@@ -121,7 +121,7 @@ nav > ul {
 	flex-basis: 100%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 872px) {
 	#home {
 		flex-wrap: wrap;
 	}
