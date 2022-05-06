@@ -174,3 +174,12 @@ span {
 	width: 100%;
 	margin: auto;
 }
+
+#features {
+	display: flex;
+	flex-direction: row;
+}
+
+.feature-box {
+	text-align: center;
+}
