@@ -44,6 +44,7 @@ h4,
 h5,
 h6 {
 	font-weight: 600;
+	text-align: center;
 }
 
 nav {
@@ -175,11 +176,26 @@ span {
 	margin: auto;
 }
 
+#feature-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
 #features {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .feature-box {
+	width: 32%;
+	height: 100%;
 	text-align: center;
+	padding: 2rem;
+	margin: 1%;
+	border: var(--primary-color) solid 0.5rem;
 }
