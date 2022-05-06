@@ -1,12 +1,6 @@
 /* font import */
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Quicksand:wght@300;500&display=swap");
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
 :root {
 	--primary-color: #80dcfe;
 	--header-color: #80dcfeee;
@@ -193,7 +187,6 @@ span {
 
 .feature-box {
 	width: 32%;
-	height: 100%;
 	text-align: center;
 	padding: 2rem;
 	margin: 1%;
