@@ -84,6 +84,7 @@ header > * {
 	width: 100%;
 	height: 100%;
 	max-width: 300px;
+	min-width: 90px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -166,4 +167,10 @@ span {
 	width: 45vw;
 	height: 45vw;
 	margin-top: 2rem;
+}
+
+#content {
+	max-width: 1000px;
+	width: 100%;
+	margin: auto;
 }
