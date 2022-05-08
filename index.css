@@ -177,6 +177,10 @@ span {
 	width: 100%;
 }
 
+#feature-header {
+	font-size: 3rem;
+}
+
 #features {
 	display: flex;
 	flex-direction: row;
@@ -186,6 +190,7 @@ span {
 #features > * {
 	flex-basis: 100%;
 	object-fit: contain;
+	font-size: 1.6rem;
 }
 
 .feature-box {
@@ -196,7 +201,11 @@ span {
 	border: var(--primary-color) solid 0.5rem;
 }
 
-@media only screen and (max-width: 600px)  {
+.material-icons {
+	font-size: 3rem !important;
+}
+
+@media only screen and (max-width: 800px)  {
 	#features {
 		flex-direction: column;
 		align-items: center;
