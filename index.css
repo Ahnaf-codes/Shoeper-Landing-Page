@@ -117,7 +117,7 @@ nav > ul {
 	flex-basis: 100%;
 }
 
-@media only screen and (max-width: 872px) {
+@media only screen and (max-width: 800px) {
 	#home {
 		flex-wrap: wrap;
 	}
@@ -180,7 +180,7 @@ span {
 #features {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 #features > * {
@@ -194,4 +194,11 @@ span {
 	padding: 2rem;
 	margin: 1%;
 	border: var(--primary-color) solid 0.5rem;
+}
+
+@media only screen and (max-width: 600px)  {
+	#features {
+		flex-direction: column;
+		align-items: center;
+	}
 }
