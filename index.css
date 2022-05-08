@@ -196,7 +196,7 @@ span {
 .feature-box {
 	width: 32%;
 	text-align: center;
-	padding: 2rem;
+	padding: 1rem;
 	margin: 1%;
 	border: var(--primary-color) solid 0.5rem;
 }
@@ -205,9 +205,16 @@ span {
 	font-size: 3rem !important;
 }
 
-@media only screen and (max-width: 800px)  {
+@media only screen and (max-width: 800px) {
 	#features {
 		flex-direction: column;
 		align-items: center;
+
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.feature-box {
+		min-width: 200px;
 	}
 }
