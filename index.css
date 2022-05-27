@@ -99,7 +99,7 @@ nav > ul {
 	padding: 1.5vw 5vw;
 	white-space: nowrap;
 	border: transparent 2px;
-	border-radius: 10%;
+	border-radius: 1rem;
 }
 
 .nav-link:hover {
