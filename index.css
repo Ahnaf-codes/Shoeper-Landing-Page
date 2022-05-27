@@ -141,9 +141,13 @@ span {
 }
 
 #email {
-	width: 15vw;
+	width: 20vw;
 	min-width: min-content;
+	padding: .5rem 1rem;
+	border: #000 solid 1px;
+	border-radius: 30px;
 	font-size: 2rem;
+	margin-bottom: 1rem;
 }
 
 .btn {
@@ -170,12 +174,6 @@ span {
 	height: 45vw;
 	margin-top: 2rem;
 }
-
-/* #content {
-	max-width: 1000px;
-	width: 100%;
-	margin: 0 auto;
-} */
 
 #features-section {
 	display: flex;
@@ -219,6 +217,29 @@ span {
 .material-icons {
 	font-size: 3rem !important;
 }
+
+#about
+
+#about-img {
+	object-fit: contain;
+	width: 60vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Media Queries */
 @media only screen and (max-width: 900px) {
