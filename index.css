@@ -112,7 +112,7 @@ header input {
 }
 
 header .material-icons {
-	font-size: 2.5rem !important;
+	font-size: calc(1rem+5vw) !important;
 	visibility: hidden;
 	opacity: 0;
 	cursor: pointer;
