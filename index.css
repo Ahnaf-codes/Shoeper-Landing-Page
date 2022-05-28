@@ -1,6 +1,16 @@
 /* font import */
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Quicksand:wght@300;500&display=swap");
 
+
+* {
+	scrollbar-width: thin;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+	width: 12px;
+  }
+
 :root {
 	--primary-color: #80dcfe;
 	--bg-color: #f2f3f4;
@@ -175,6 +185,10 @@ span {
 	margin-top: 2rem;
 }
 
+#container {
+	margin: 10px;
+}
+
 #features-section {
 	display: flex;
 	flex-direction: column;
@@ -218,7 +232,20 @@ span {
 	font-size: 3rem !important;
 }
 
-#about
+
+
+#about-header{
+	font-size: 3rem;
+}
+
+#about-slogan{
+	font-size: 2.5rem;
+}
+
+#about-main{
+	display: flex;
+	flex-direction: row-reverse;
+}
 
 #about-img {
 	object-fit: contain;
@@ -309,3 +336,4 @@ span {
 		min-width: 200px;
 	}
 }
+/* Media Queries End  */
