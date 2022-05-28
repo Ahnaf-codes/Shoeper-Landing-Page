@@ -243,13 +243,18 @@ span {
 	font-size: 3rem;
 }
 
+#about-main{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
 #about-slogan{
 	font-size: 2.5rem;
 }
 
-#about-main{
-	display: flex;
-	flex-direction: row-reverse;
+#about-desc {
+	font-size: 1.6rem;
+	text-align: center;
 }
 
 #about-img {
