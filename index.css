@@ -4,11 +4,16 @@
 
 * {
 	scrollbar-width: thin;
+	scrollbar-color: var(--secondary-color) var(--bg-color);
   }
   
   /* Works on Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
 	width: 12px;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+	background-color: var(--secondary-color);
   }
 
 :root {
